@@ -1,5 +1,7 @@
 # Actions
 
+- actions can be of 2 types Synchronous and Asynchronous
+
 ## Synchronous Actions
 
 - As soon as an action was dispatched, the state was immediately updated.
@@ -20,7 +22,7 @@
 - Actions ?
 - Reducer ?
 
-### 1. State
+### 1. how to use State
 
 ```js
 state = {
@@ -33,7 +35,7 @@ state = {
 // error – Display error to the user
 ```
 
-### 2. Actions
+### 2. how to use Actions
 
 ```js
 FETCH_USERS_REQUEST; // Fetch list of users
@@ -41,7 +43,7 @@ FETCH_USERS_SUCCESS; // Fetched successfully
 FETCH_USERS_FAILURE; //Error fetching the data
 ```
 
-### 3. Reducers
+### 3. how to use Reducers
 
 ```js
 case: FETCH_USERS_REQUEST

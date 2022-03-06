@@ -7,14 +7,12 @@ import IceCreamContainer from "./components/IceCreamContainer";
 import HooksIceCream from "./components/HooksIceCream";
 import NoOfCakeContainer from "./components/NoOfCakeContainer";
 import ShowItem from "./components/ShowItem";
-import UserContainer from "./components/UserContainer";
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <UserContainer />
-        {/* <ShowItem cake /> */}
-        {/* <ShowItem /> */}
+        <ShowItem cake />
+        <ShowItem />
         {/* <NoOfCakeContainer /> */}
         {/* <CakeContainer />
         <HooksCakeContainer />
