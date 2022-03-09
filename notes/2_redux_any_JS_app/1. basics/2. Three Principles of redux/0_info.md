@@ -25,7 +25,7 @@ shelf = {
 }
 ```
 
-## Third Principle :To specify how the state tree is transformed by actions, you write pure reducers
+## 3. Third Principle :To specify how the state tree is transformed by actions, you write pure reducers
 
 - Reducer - (previousState, action) => newState
 - Cake Shop : Reducer is the shopkeeper

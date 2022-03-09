@@ -8,11 +8,13 @@ import HooksIceCream from "./components/HooksIceCream";
 import NoOfCakeContainer from "./components/NoOfCakeContainer";
 import ShowItem from "./components/ShowItem";
 import UserContainer from "./components/UserContainer";
+import ChocoContainer from "./components/ChocoContainer";
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <UserContainer />
+        <ChocoContainer />
+        {/* <UserContainer /> */}
         {/* <ShowItem cake /> */}
         {/* <ShowItem /> */}
         {/* <NoOfCakeContainer /> */}

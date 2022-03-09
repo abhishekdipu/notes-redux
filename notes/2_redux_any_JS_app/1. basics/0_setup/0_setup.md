@@ -1,4 +1,4 @@
-## Getting Started with redux library
+# Getting Started with redux library
 
 ## 1. installation :
 
