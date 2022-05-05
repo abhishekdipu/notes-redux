@@ -1,8 +1,8 @@
 # what is redux?
 
-- Official defination : redux is predictable state container for javaScript apps.
+- Official definition : redux is predictable state container for javaScript apps.
 
-### explaination :
+### explanation :
 
 1. Redux is for javascript application.
    - it's not tied to react and can be used with react, angular, vue or even vanilla javascript.

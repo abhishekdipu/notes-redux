@@ -4,14 +4,14 @@
 
 ## how to use Multiple Reducers?
 
-1. create actions constants seperately
+1. create actions constants separately
 
 ```js
 const BUY_CAKE = "BUY_CAKE";
 const BUY_ICECREAM = "BUY_ICECREAM";
 ```
 
-2. create actions creators seperately
+2. create actions creators separately
 
 ```js
 const buyCake = () => {
@@ -27,7 +27,7 @@ const buyIcecream = () => {
 };
 ```
 
-3. initialize initial states for both seperatey
+3. initialize initial states for both separately
 
 ```js
 const initialCakeState = {
@@ -38,7 +38,7 @@ const initialIcecreamState = {
 };
 ```
 
-4. create reducers for both seperately
+4. create reducers for both separately
 
 ```js
 const cakeReducer = (state = initialCakeState, action) => {

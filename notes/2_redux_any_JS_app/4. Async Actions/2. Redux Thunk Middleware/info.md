@@ -2,14 +2,8 @@
 
 - to create async actions (like api calling) in redux, we need 2 middleware
 
-1. axios
-
-- Requests to an API end point
-
-2. redux-thunk
-
-- Define async action creators
-- acts as a Middleware
+1. axios : Requests to an API end point
+2. redux-thunk : It acts as a Middleware and It's used to define async action creators.
 
 ## Steps to use
 
@@ -31,7 +25,7 @@ const store = createStore(reducer, applyMiddleware(thunkMiddleware));
 
 3. define async actionCreator
 
-- async actionCreator function : with help of redux-thunk middleware we can make action creator to return function insead of action Object.
+- async actionCreator function : with help of redux-thunk middleware we can make action creator to return function instead of action Object.
 - and inside this actionCreator function we can have side-effects like calling api.
 - and inside this function we can also dispatch actions as inner function accepts "dispatch" as argument.
 

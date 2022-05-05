@@ -2,8 +2,8 @@
 
 - The only way your application can interact with the store
 - It Carry some information from your app to the redux store
-- Plain JavaScript objects
-- Have a 'type' property that indicates the type of action being performed
+- Action will always be Plain JavaScript objects
+- Should always have a 'type' property that indicates the type of action being performed
 - The 'type' property is typically defined as string constants
 
 ## how to use action?
@@ -14,7 +14,7 @@
 const BUY_CAKE = "BUY_CAKE";
 ```
 
-2. create a function with return action
+2. create a function which returns action
 
 ```js
 const buyCake = () => {
@@ -25,7 +25,7 @@ const buyCake = () => {
 };
 ```
 
-## final look :
+## How Action looks:
 
 ```js
 const BUY_CAKE = "BUY_CAKE";

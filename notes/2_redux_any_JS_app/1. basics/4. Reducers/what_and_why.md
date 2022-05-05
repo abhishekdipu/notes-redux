@@ -1,10 +1,10 @@
 # Reducers
 
 - Specify how the app's state changes in response to actions sent to the store
-- Function that accepts state and action as arguements, and returns the next state of the application
+- Reducer is a JS function that accepts state and action as arguments, and returns the next state of the application
 
 ```js
-(previousState, action) => newState;
+const reducer = (previousState, action) => newState;
 ```
 
 ## how to use reducer?
@@ -17,7 +17,7 @@ const initialState = {
 };
 ```
 
-2. create a reducer funtion
+2. create a reducer function
 
 ```js
 const reducer = (state = initialState, action) => {
