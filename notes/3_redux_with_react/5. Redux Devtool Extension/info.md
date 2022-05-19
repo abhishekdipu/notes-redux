@@ -1,9 +1,9 @@
-# 5. Redux Devtool Extension
+# Redux Devtool Extension
 
 ## steps
 
 1. install redux devtool in chrome
-2. install npm dependency in project
+2. install "redux-devtools-extension" npm dependency in project
 
 ```zsh
 npm i redux-devtools-extension

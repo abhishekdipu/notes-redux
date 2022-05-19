@@ -20,7 +20,7 @@ const mapDispatchToProp = (dispatch) => {
 ## use of "ownProps" argument
 
 - if we need to return dispatch function from mapDispatchToProp method based on props passed from parent component.
-- scenario : create a component to display either "numOfCakes" of cake prop is passed from parent or numOfIceCream is cake prop is not passed and also corrosponding action to buyCake or buyIceCream should be there.
+- scenario : create a component to display either "numOfCakes" of cake prop is passed from parent or numOfIceCream is cake prop is not passed and also corresponding action to buyCake or buyIceCream should be there.
 
 ```js
 const mapDispatchToProp = (dispatch, ownProp) => {

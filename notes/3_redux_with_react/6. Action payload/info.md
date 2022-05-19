@@ -1,8 +1,8 @@
 ## Action payload
 
-## Secnario:
+## Scenario:
 
-- earlier Scenario : on click of a button "buycake" we were dispatching action to buyCake
+- earlier Scenario : on click of a button "buyCake" we were dispatching action to buyCake
 - current Scenario : we also want to pass the quantity(noOfCake) to buy.
 
 ## Steps : how to send cakeCount payload from UI to reducer?

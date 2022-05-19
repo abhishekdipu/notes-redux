@@ -4,7 +4,7 @@
 
 ## Scenario :
 
-- we want to impletement 2 features cake and iceCream
+- we want to implement 2 features cake and iceCream
 
 ## Steps:
 

@@ -38,7 +38,7 @@ Vue --> Vuetify
 npx create-react-app  react-typescript-mui --template typescript
 ```
 
-2. mui insatall
+2. mui install
 
 - [link](https://mui.com/getting-started/installation/)
 

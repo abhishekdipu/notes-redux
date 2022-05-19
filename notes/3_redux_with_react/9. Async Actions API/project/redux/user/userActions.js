@@ -27,7 +27,7 @@ const fetchUsersFailure = (error) => {
 
 export const fetchUsers = () => {
   return function (dispatch) {
-    dispatch(fetchUsersRequest()); //it'll set loading to true
+    dispatch( ()); //it'll set loading to true
     axios
       .get("https://jsonplaceholder.typicode.com/users")
       .then((response) => {
