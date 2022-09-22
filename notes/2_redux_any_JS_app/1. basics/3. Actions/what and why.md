@@ -1,9 +1,9 @@
 # Actions
 
-- The only way your application can interact with the store
+- Dispatching Actions is the only way your application can interact with the store
 - It Carry some information from your app to the redux store
 - Action will always be Plain JavaScript objects
-- Should always have a 'type' property that indicates the type of action being performed
+- Should always have a **type** property that indicates the type of action being performed
 - The 'type' property is typically defined as string constants
 
 ## how to use action?

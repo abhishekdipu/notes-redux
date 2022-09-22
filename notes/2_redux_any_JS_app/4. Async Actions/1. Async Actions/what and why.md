@@ -14,7 +14,7 @@
 
 ## Our Application
 
-- Fetches a list of users from an API end point and stores it in the redux store.
+- Fetches a list of users from an API endpoint and stores it in the redux store.
 
 ## things to look for
 

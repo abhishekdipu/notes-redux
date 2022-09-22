@@ -77,14 +77,13 @@ const rootReducer = combineReducers({
 
 // store
 const store = createStore(rootReducer); //store created, now it's ready to be subscribed
-console.log("Initial state", store.getState());
+console.log("Initial state", store.getState()); // Initial state { cake: { numOfCakes: 10 }, icecream: { numOfIcecream: 20 } }
 const unsubscribe = store.subscribe(() =>
   console.log("current state", store.getState())
 );
-store.dispatch(buyCake());
-store.dispatch(buyCake());
-
-store.dispatch(buyIcecream());
-store.dispatch(buyIcecream());
+store.dispatch(buyCake()); // current state { cake: { numOfCakes: 9 }, icecream: { numOfIcecream: 20 } }
+store.dispatch(buyCake()); // current state { cake: { numOfCakes: 8 }, icecream: { numOfIcecream: 20 } }
+store.dispatch(buyIcecream()); // current state { cake: { numOfCakes: 8 }, icecream: { numOfIcecream: 19 } }
+store.dispatch(buyIcecream()); // current state { cake: { numOfCakes: 8 }, icecream: { numOfIcecream: 18 } }
 
 unsubscribe();

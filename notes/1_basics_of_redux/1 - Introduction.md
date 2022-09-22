@@ -13,7 +13,14 @@
 
 ## why redux?
 
-- see pics 2 nd 3
+- Sometime we need to pass the state from 1 component to another component we can achieve this by passing the state as props.
+- but if component is nested deep inside then we have unnecessarily pass the state throughout the component tree.
+- also we may to to lift the state in some scenario, eg in below component tree, if we need to pass the state from component-A to component-G then 1st we have lift the state till App-component then again we have to pass the state to component-G down the component tree.
+
+- how lifting the state looks like :
+  ![](./screenshots/issue_with_lifting_the_state.png)
+- how can we achieve the same requirement without lifting the state with redux:
+  ![](./screenshots/solution_with_with_redux.png)
 
 ## how to use redux in react?
 
