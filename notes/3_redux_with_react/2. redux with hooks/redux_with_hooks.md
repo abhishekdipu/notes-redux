@@ -1,10 +1,10 @@
-# React Redux + Hooks
+# React-Redux with Hooks
 
-## Using Redux before hooks : React Redux pattern
+## How we were using Redux with react before hooks was introduced in react ? :
 
-1. Action creators, reducers, provide the store and connect the components.
-2. Components can access state and dispatch actions
-   React Hooks
+- it's called React-Redux pattern
+- here we were creating Action-creators, reducers-functions and provide it to the store and connect the components.
+- so Components can access state and dispatch actions
 
 ## Using Redux with hooks
 
@@ -20,7 +20,7 @@
 const numOfCakes = useSelector((state) => state.numOfCakes);
 ```
 
-### useSelector
+### useDispatch
 
 - it's the replacement for mapDispatchToProps
 - return reference for the dispatch function from the redux store.

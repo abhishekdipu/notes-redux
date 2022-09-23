@@ -18,7 +18,7 @@ const cakeReducer = (state = initialState, action) => {
 };
 
 //selector
-export const getNumOfCakes = (state) => {
-  return state.numOfCakes;
-};
+// export const getNumOfCakes = (state) => {
+//   return state.numOfCakes;
+// };
 export default cakeReducer;
