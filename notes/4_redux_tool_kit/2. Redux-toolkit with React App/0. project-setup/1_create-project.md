@@ -15,8 +15,7 @@ npx create-react-app rtk-react-demo
 2. install dependencies
 
 ```zsh
-npm i react-redux
-npm i @reduxjs/toolkit
+npm i react-redux @reduxjs/toolkit
 npm i axios
 ```
 
